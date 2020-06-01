@@ -140,6 +140,10 @@ namespace LuxaforSharp.Tests
             }
         }
 
+        public IntPtr ReadHandle => throw new NotImplementedException();
+
+        public IntPtr WriteHandle => throw new NotImplementedException();
+
         public void OpenDevice(DeviceMode readMode, DeviceMode writeMode, ShareMode shareMode)
         {
             throw new NotImplementedException();
